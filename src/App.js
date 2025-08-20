@@ -25,7 +25,7 @@ function App() {
       <h1>Weather Dashboard</h1>
       <input
         type="text"
-        placeholder="Enter city"
+        placeholder="Enter the city"
         value={city}
         onChange={(e) => setCity(e.target.value)}
         style={{ padding: '8px', fontSize: '16px' }}
